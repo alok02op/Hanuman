@@ -34,3 +34,46 @@
     }
 }
 /* --------------------------- */
+@media screen and (max-width:500px){
+    .phone-heading{
+        font-size: 1.2rem;
+    }
+    .about-img-container{
+        width: 350px;
+    }
+    .about-img-container img{
+        width: 100%;
+    }
+    .history-img-container{
+        width: 350px;
+    }
+    .history-img-container img{
+        width: 100%;
+    }
+    .about-description p{
+        padding: 0.5rem;
+    }
+    .history-description p{
+        padding: 0.5rem;
+    }
+    .route-details p{
+        font-size: 3rem;
+    }
+    .gallery-img-container{
+        width: 300px;
+        height: 350px;
+    }
+    .donate-img-container{
+        width: 350px;
+    }
+    .donate-img-container img{
+        width: 100%;
+    }
+    .nav{
+        padding: 0.5rem;
+    }
+    .nav-wrapper{
+        padding: 0.5rem;
+    }
+}
+/* ------------------------------------------ */
