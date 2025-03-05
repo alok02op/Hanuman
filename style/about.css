@@ -1,0 +1,87 @@
+@import url('https://fonts.cdnfonts.com/css/samarkan');
+@import url('https://fonts.cdnfonts.com/css/tabernae-montana');
+
+@font-face {
+    font-family: "AMS Kashi";
+    src: url("./../assets/fonts/AMS\ Kashi\ Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.about-wrapper{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+.about-content{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.about-description{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    color: white;
+}
+.heading{
+    color: #ffd700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 2.5rem;
+    border-bottom: 2px solid white;
+}
+.about-description p{
+    font-size: 1.2rem;
+    text-align: start;
+    font-family: monospace;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    animation: slideFromLeft 2s ease-in 100ms 1 alternate forwards;
+
+}
+.about-img-container img{
+    animation: blow-out 2s ease-in 100ms 1 alternate forwards;
+}
+
+@keyframes blow-out{
+    from{
+        transform: scale(0.5);
+    }
+    to {
+        transform: scale(1.0);
+    }
+}
+
+@keyframes slideFromLeft{
+    from{
+        font-size: 0.5rem;
+    }
+    to{
+        font-size: 1.2rem;
+    }
+}
+
+@media  screen and (max-width: 1000px){
+    .about-content{
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+    .about-description p{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .about-wrapper{
+        padding: 0.2rem;
+    }
+    .heading{
+        font-size: 2rem;
+    }
+}
+/* ---------------------------------- */

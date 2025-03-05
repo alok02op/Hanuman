@@ -1,0 +1,49 @@
+.footer-wrapper{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: radial-gradient(circle at top left, #111111 50%, #000000 67%);
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.social-icons {
+    margin: 1rem 0;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 1rem;
+    font-size: 2rem;
+    transition: color 0.1s ease;
+}
+
+.social-icons a:hover {
+    color: #ff4d00;
+    transform: scale(1.1);
+}
+
+.credits {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+@media screen and (max-width:500px){
+    .credits{
+        font-size: 1rem;
+    }
+    .social-icons a{
+        font-size: 1.5rem;
+    }   
+}
+
+@media screen and (max-width:1280px){
+    .footer-wrapper{
+        margin: 1rem;
+    }
+}
+
+/* --------------------------------------- */
