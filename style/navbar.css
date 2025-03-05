@@ -3,7 +3,7 @@
     margin: 0 auto;
     padding: 1rem;
     position: sticky;
-    top: 0px;
+    top: 5px;
     z-index: 1;
 }
 
@@ -172,7 +172,7 @@ transform: rotate(45deg) translate(-5px, -6px);
         width: 280px;
         height: 320px;
     }
-    
+
 
 }
 
