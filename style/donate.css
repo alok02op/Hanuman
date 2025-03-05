@@ -72,5 +72,8 @@
     .don-head{
         font-size: 1.2rem;
     }
+    .donate-description p{
+        padding: 0.5rem;
+    }
 }
 /* ---------------------------------- */
