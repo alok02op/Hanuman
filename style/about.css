@@ -35,6 +35,7 @@
     border-bottom: 2px solid white;
 }
 .about-description p{
+    padding: 1rem;
     font-size: 1.2rem;
     text-align: start;
     font-family: monospace;
